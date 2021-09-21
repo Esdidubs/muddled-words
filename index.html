@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muddled Words</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Muddled Words</h1>
+    </header>
+    <main>
+        <form id="cardForm">
+            <fieldset class="rules" id="rules">
+                <legend>Rules</legend>
+                <p class="description">
+                    You're trying to get your team to guess the phrase on the card through various methods.
+                    For each attempt you'll try to get your team to guess the answer using the restrictions
+                    required for the attempt. If your team is unable to guess the answer after all 3 rounds,
+                    the other team has one shot to steal and get 3 points.
+                    <br>Attempt 1 - 3pts - Charades
+                    <br>Attempt 2 - 2pts - Drawing
+                    <br>Attempt 3 - 1pt  - Catchphrase
+                </p>
+            </fieldset>
+            <div>
+                <button id="newCard">New Card</button>
+                <button id="prevCard">Previous</button>
+            </div>
+            <button id="btnRules">Rules</button>
+            <div id="cardSection"></div>
+            <button id="answerBtn">Flip Card</button>   
+            <button id="newGame">Start the Game</button>
+            
+        </form>    
+    </main>
+    <footer><p>Muddled Words is a game by Steven Ward</p></footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="STORE.js"></script> 
+    <script src="app.js"></script>
+</body>
+</html>
