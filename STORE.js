@@ -117,5 +117,7 @@ const STORE = [
     "Black Swan Songbird",
     "Thinking Capstone Project",
     "Tie the Knot the Sharpest Tool",
-    "Yellow-Belly Dance"
+    "Yellow-Belly Dance",
+    "Goldfish Tacos",
+    "Rise and Shrine",
 ];
